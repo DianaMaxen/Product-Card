@@ -8,9 +8,9 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Trustable UAE offers reliable business services and professional solutions across the UAE. Get expert support tailored to your business needs.">
+        content="">
     <meta name="keywords"
-        content="business services UAE, professional solutions UAE, company services Dubai">
+        content="">
     <link rel="canonical" href="#">
 
     <!-- Open Graph -->
