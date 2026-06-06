@@ -8,22 +8,22 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Trustable UAE offers reliable business services and professional solutions across the UAE. Get expert support tailored to your business needs.">
+        content="">
     <meta name="keywords"
-        content="business services UAE, professional solutions UAE, company services Dubai">
+        content="">
     <link rel="canonical" href="#">
 
     <!-- Open Graph -->
     <meta property="og:locale" content="en_IN">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Reliable Business Services & Solutions in Dubai">
+    <meta property="og:title" content="">
     <meta property="og:url" content="PAGE_URL">
     <meta property="og:site_name" content="">
     <meta property="og:image" content="#">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="550">
     <meta property="og:description"
-        content="Discover trusted and professional business solutions in UAE with Trustable. Built for reliability, growth, and success.">
+        content="">
     <meta name="robots" content="index, follow">
 
     <?php include_once('assets/includes/links.php') ?>
