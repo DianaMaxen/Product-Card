@@ -1,0 +1,132 @@
+:root {
+  /* Primary theme fonts */
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+
+  /* Brand colors */
+  --color-default: #fff;
+  --color-primary: #e02349;
+  --color-secondary: rgb(40, 82, 40);
+  --color-bltxt: #2d2d2d;
+  --color-black: #000000;
+  --color-blsdw: #19181829;
+  --color-back: #fef0ef;
+}
+
+/* Links & buttons */
+a,
+button {
+  transition: all 0.3s ease;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* Reset spacing */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: all 0.3s ease;
+}
+
+
+/* <!-- Product Section --> */
+
+.product-section {
+  padding: 60px 0;
+  background-color: var(--color-back);
+}
+
+.product-card {
+  max-width: 700px;
+  margin: auto;
+  background: var(--color-default);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-content {
+  padding: 30px;
+}
+
+.product-category {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--color-bltxt);
+  font-size: 14px;
+  font-family: var(--font-primary);
+}
+
+.product-title {
+  margin: 20px 0;
+  font-weight: 800;
+  color: var(--color-bltxt);
+  font-size: 36px;
+  font-family: var(--font-secondary);
+}
+
+.product-description {
+  color: var(--color-bltxt);
+  line-height: 1.7;
+  font-size: 16px;
+  font-family: var(--font-primary);
+  margin-bottom: 15px;
+}
+
+.current-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-secondary);
+  font-family: var(--font-primary);
+
+}
+
+.product-price {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: var(--color-bltxt);
+  font-family: var(--font-primary);
+  font-size: 14px;
+  margin-left: 10px;
+
+}
+
+.cart-btn {
+  font-size: 14px;
+  color: var(--color-default);
+  background-color: var(--color-secondary);
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  border: 1px solid var(--color-secondary);
+  transition: all 0.3s ease;
+  width: 200px;
+
+}
+
+.cart-btn:hover {
+  background-color: var(--color-black);
+  color: var(--color-secondary);
+}

@@ -1,0 +1,44 @@
+/* <!-- Product Section --> */
+
+@media screen and (max-width: 578px) {
+    .product-title {
+        font-size: 32px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .product-title {
+        font-size: 26px;
+    }
+
+    .product-description {
+        font-size: 14px;
+    }
+
+    .product-category {
+        font-size: 12px;
+    }
+
+    .current-price {
+        font-size: 28px;
+    }
+
+    .cart-btn {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .product-title {
+        font-size: 22px;
+    }
+
+    .current-price {
+        font-size: 26px;
+    }
+    
+    .cart-btn{
+        width: 150px;
+    }
+}
